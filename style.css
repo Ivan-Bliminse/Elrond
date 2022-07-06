@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Expletus+Sans:ital@1&family=Graduate&family=Handlee&family=Oleo+Script:wght@400;700&family=Orbitron&family=Poppins:wght@200;500&family=Roboto+Mono&family=Spline+Sans+Mono&family=Tapestry&family=Updock&family=Water+Brush&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins, "Montserrat", sans-serif;
+
+  /* test height */
+  height: 150vh;
+}
+
+/* Background Image */
+.header {
+  background-image: url("https://elrond.com/assets/images/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: -150vh;
+  height: 100vh;
+  position: relative;
+}
+/* First navigation Panel */
+
+.navTop {
+  display: flex;
+  width: 60vw;
+  margin: 0 auto;
+  border-bottom: 2px solid rgba(113, 116, 136, 0.35);
+}
+
+.language {
+  display: flex;
+  color: white;
+  width: 50vw;
+  margin-left: 2.7vw;
+  align-items: center;
+}
+.navigationOne {
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navOne {
+  width: 100%;
+}
+.navOne a {
+  color: #a7a8b2;
+  text-decoration: none;
+  margin-left: 0.5vh;
+  font-size: 1.4vh;
+}
+
+/* ================= second navigation panel  ==============================*/
+.navTopTwo {
+  display: flex;
+  width: 100vw;
+  margin: 0 auto;
+  height: 12vh;
+  margin-bottom: 10vh;
+  align-items: center;
+  /* background-color: white; */
+  overflow: hidden;
+}
+
+.logo {
+  width: 30vw;
+  margin-left: 20vw;
+}
+
+.navTopTwo .logo img {
+  width: 30vh;
+}
+
+.navigationTwo {
+  width: 50vw;
+}
+
+.navigationTwo nav a {
+  font-size: 1.5vh;
+  color: #a7a8b2;
+  text-decoration: none;
+  margin-left: 2vw;
+}
+.navigationTwo nav a:first-child {
+  margin-left: 0;
+}
+.navigationTwo nav button {
+  font-size: 1.1vh;
+  margin-left: 2vw;
+  border: 1px solid white;
+  background-color: black;
+  color: white;
+  padding: 2vh;
+  border-radius: 1vh;
+}
+
+/* ================== active second panel  ::: JavaScript =================*/
+
+.secondNavBlack.active {
+  display: none;
+}
+
+#secondNavLight.secondNavLight {
+  display: none;
+  width: 10vw;
+  margin-left: 3vw;
+}
+#secondNavLight.secondNavLight.active {
+  display: block;
+  width: 10vw;
+  margin-left: 3vw;
+}
+
+.navigationTwo nav button.active {
+  border: 3px solid #1b46c2;
+  font-weight: bold;
+  color: #1b46c2 !important;
+  background-color: white;
+}
+
+.navTopTwo.active {
+  background-color: white;
+  position: sticky;
+  top: 0;
+}
+
+/* ========= NEW block  =================*/
+
+.newBlock {
+  width: 55vw;
+  margin: 4vh auto;
+  color: white;
+  display: flex;
+  font-size: 1.4vh;
+}
+.new {
+  background: blue;
+  padding: 0.5vh;
+}
+.newText {
+  background-color: rgb(110, 108, 108, 0.4);
+  padding: 0.5vh;
+  color: #a7a8b2;
+}
+
+.newBlock:hover {
+  cursor: pointer;
+}
+.newText:hover {
+  text-decoration: underline;
+}
+
+/* h1 Text  */
+
+.bigTextH1 {
+  font-size: 3vh;
+  color: white;
+  width: 26.6vw;
+  margin-left: 22vw;
+}
+
+.paragraph {
+  color: white;
+  font-size: 1.4vh;
+  width: 25vw;
+  margin-left: 22vw;
+  margin-top: 2vw;
+}
+.buttonsHeader {
+  margin-left: 22vw;
+  margin-top: 2vw;
+  border: none;
+}
+
+.buyEGLD {
+  background-color: #1b46c2;
+  color: white;
+  padding: 2vh 4vh;
+  margin-right: 1.5vw;
+  border-radius: 0.5vh;
+  font-size: 2vh;
+}
+
+.stakeNOW {
+  font-size: 2vh;
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+  padding: 2vh 4vh;
+  margin-right: 1.5vw;
+  border-radius: 0.5vh;
+}
+
+/* footer */
+
+.companies {
+  margin-left: 22vw;
+}
+.companies a {
+  text-decoration: none;
+}
+.companies a img {
+  width: 5vh;
+  margin-left: 0.5vw;
+  margin-top: 3vh;
+}
+
+.companies .forbes {
+  width: 8vh;
+}
+.companies .bloomberg {
+  width: 10vh;
+}
+.companies .finance {
+  width: 15vh;
+}
+.companies .theBlock {
+  width: 8vh;
+}
+
+/* blue box */
+.blueBox {
+  position: absolute;
+  height: 2vw;
+  width: 20vw;
+  background: rgba(19, 58, 171, 0.4);
+  bottom: -2vh;
+  right: 0;
+}
